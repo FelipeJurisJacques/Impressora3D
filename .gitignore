@@ -1,3 +1,9 @@
-mark*/**
-!**/Marlin/Configuration.h
-!**/Marlin/Configuration_adv.h
+Mark*/Marlin*/*
+Mark*/Marlin*/.*
+Mark*/Marlin*/**/*
+
+!Mark*/Marlin*/Marlin/
+!Mark*/Marlin*/LICENSE
+!Mark*/Marlin*/README.md
+!Mark*/Marlin*/Marlin/Configuration.h
+!Mark*/Marlin*/Marlin/Configuration_adv.h
