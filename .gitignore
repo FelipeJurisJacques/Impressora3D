@@ -1,9 +1,9 @@
 Mark*/Marlin*/*
 Mark*/Marlin*/.*
 Mark*/Marlin*/**/*
-
 !Mark*/Marlin*/Marlin/
 !Mark*/Marlin*/LICENSE
 !Mark*/Marlin*/README.md
+!Mark*/Marlin*/platformio.ini
 !Mark*/Marlin*/Marlin/Configuration.h
 !Mark*/Marlin*/Marlin/Configuration_adv.h
