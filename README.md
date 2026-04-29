@@ -3,10 +3,13 @@ Impressora 3D manufaturada estilo Prusa I3
 
 Firmware Marlin
 - https://marlinfw.org
+Datasheet de componestes eletrônicos e mecânicos
+- https://1drv.ms/f/c/8fc622848ac09012/IgB3PG7AdqqxQbM0xz7x58FAAbgDaoiftB0YqH30SlTb3tA?e=bT1Vop
 
 
 ## MARK III
 Arduino MEGA 2560 + RAMPS 1.4
+
 Arquivos de mídia e documentos
 - https://1drv.ms/f/c/8fc622848ac09012/IgCCj2tqeyx7Sp60kMBXzoniAcpz3GNhoSgCrYxzs_9f7VI?e=1qRlAt
 
