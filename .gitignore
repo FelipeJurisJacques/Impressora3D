@@ -1,0 +1,4 @@
+mark*/**
+README.md
+!**/Marlin/Configuration.h
+!**/Marlin/Configuration_adv.h

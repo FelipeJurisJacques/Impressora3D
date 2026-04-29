@@ -1,0 +1,93 @@
+configuration.h
+
+#define STRING_CONFIG_H_AUTHOR "(FelipeJJ, MARK III)" // 74
+
+#define BAUDRATE 115200 // 124
+
+#ifndef MOTHERBOARD // 130
+  #define MOTHERBOARD BOARD_RAMPS_14_EFB
+#endif
+
+#define CUSTOM_MACHINE_NAME "MARK III" // 135
+
+#define EXTRUDERS 1 // 145
+
+#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75 // 148
+
+#define TEMP_SENSOR_0 1 // 409
+
+#define TEMP_SENSOR_BED 1 // 417
+
+#define HEATER_0_MAXTEMP 240 // 453
+
+#define BED_MAXTEMP      111 // 461
+
+#define EXTRUDE_MINTEMP 223 // 561
+
+#define EXTRUDE_MAXLENGTH 240 // 568
+
+#define USE_XMIN_PLUG // 615
+#define USE_YMIN_PLUG
+#define USE_ZMIN_PLUG
+#define USE_XMAX_PLUG
+#define USE_YMAX_PLUG
+#define USE_ZMAX_PLUG
+
+#define X_MIN_ENDSTOP_INVERTING true // 649
+#define Y_MIN_ENDSTOP_INVERTING true
+#define Z_MIN_ENDSTOP_INVERTING true
+#define X_MAX_ENDSTOP_INVERTING true
+#define Y_MAX_ENDSTOP_INVERTING true
+#define Z_MAX_ENDSTOP_INVERTING true
+#define Z_MIN_PROBE_ENDSTOP_INVERTING true
+
+#define X_DRIVER_TYPE  DRV8825 // 673
+#define Y_DRIVER_TYPE  DRV8825
+#define Z_DRIVER_TYPE  DRV8825
+//#define X2_DRIVER_TYPE A4988
+//#define Y2_DRIVER_TYPE A4988
+//#define Z2_DRIVER_TYPE A4988
+//#define Z3_DRIVER_TYPE A4988
+//#define Z4_DRIVER_TYPE A4988
+#define E0_DRIVER_TYPE DRV8825
+//#define E1_DRIVER_TYPE A4988
+//#define E2_DRIVER_TYPE A4988
+//#define E3_DRIVER_TYPE A4988
+//#define E4_DRIVER_TYPE A4988
+//#define E5_DRIVER_TYPE A4988
+//#define E6_DRIVER_TYPE A4988
+//#define E7_DRIVER_TYPE A4988
+
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 5039, 250 } // 733
+
+#define DEFAULT_ACCELERATION          400 // 768
+#define DEFAULT_RETRACT_ACCELERATION  1000
+#define DEFAULT_TRAVEL_ACCELERATION   1200
+
+#define S_CURVE_ACCELERATION // 815
+
+#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 } // 959 (centraliza o bico na mesa)
+
+#define INVERT_X_DIR false // 1059
+#define INVERT_Y_DIR false
+#define INVERT_Z_DIR false
+
+#define PREHEAT_1_LABEL       "PLA" // 1476
+#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_BED     70
+#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
+
+#define PREHEAT_2_LABEL       "ABS"
+#define PREHEAT_2_TEMP_HOTEND 240
+#define PREHEAT_2_TEMP_BED    110
+#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+
+#define LCD_LANGUAGE pt_br // 1619
+
+#define SDSUPPORT // 1659
+
+#define SPI_SPEED SPI_HALF_SPEED // 1667
+
+#define SD_CHECK_AND_RETRY // 1676
+
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER // 1910

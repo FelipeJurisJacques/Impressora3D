@@ -1,0 +1,36 @@
+Driver DRV8825
+Resolucao 1/32 (os 3 pinos ligados)
+CMP = 32
+
+Nema 17 1.8°
+Passos para uma volta 200
+PVM = 200
+
+Correia GT2
+2 Passos
+PC = 2
+
+Polia
+20 dentes
+DP = 20
+
+Formula correia
+step/mm = (CMP * PVM) / (PC * DP)
+step = (32 * 200) / (2 * 20)
+step = 6400 / 40
+step = 160
+
+
+Fuso
+1/4 polegadas
+20 passos por polegadas
+NFP 20
+
+1 polegada em mm 25.4
+PM 25.4
+
+Formula fuso
+step/mm = (CMP * PVM) / (PM / NFP)
+step = 6400 / 1.27
+step = 5039.3700787402
+
