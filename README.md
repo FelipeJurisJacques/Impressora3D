@@ -3,6 +3,7 @@ Impressora 3D manufaturada estilo Prusa I3
 
 Firmware Marlin
 - https://marlinfw.org
+
 Datasheet de componestes eletrônicos e mecânicos
 - https://1drv.ms/f/c/8fc622848ac09012/IgB3PG7AdqqxQbM0xz7x58FAAbgDaoiftB0YqH30SlTb3tA?e=bT1Vop
 
@@ -22,9 +23,12 @@ Arquivos de mídia e documentos
 
 
 ## MARK V
+
 BigTreeTech SKR-Mini-E3 + Display TFT35-E3 V3.0
 - https://3dwork.io/en/skr-mini-e3-v3/
+
 Repositório com informações e firmware da placa BigTreeTech SKR-Mini-E3
 - https://github.com/bigtreetech/bigtreetech-skr-mini-e3
+
 Arquivos de mídia e documentos
 - https://1drv.ms/f/c/8fc622848ac09012/IgC8sM7t5yoTRrXyEdeeaKg6AYbfRs1pRM_pa0scz5Y8gKk?e=jTZJfH
