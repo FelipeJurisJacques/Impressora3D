@@ -1,9 +1,27 @@
+*.zip
+*.zpl
+
+Mark*/ESP3D-*/*
+Mark*/ESP3D-*/**/*
+!Mark*/ESP3D-*/LICENSE
+!Mark*/ESP3D-*/README.md
+
 Mark*/Marlin*/*
-Mark*/Marlin*/.*
 Mark*/Marlin*/**/*
-!Mark*/Marlin*/Marlin/
 !Mark*/Marlin*/LICENSE
+!Mark*/Marlin*/Marlin/
 !Mark*/Marlin*/README.md
 !Mark*/Marlin*/platformio.ini
-!Mark*/Marlin*/Marlin/Configuration.h
 !Mark*/Marlin*/Marlin/Configuration_adv.h
+
+!Mark*/Marlin*/.pio/
+!Mark*/Marlin*/.pio/build/
+!Mark*/Marlin*/.pio/build/**/
+!Mark*/Marlin*/.pio/build/**/firmware.bin
+
+Mark*/BIGTREETECH-TouchScreenFirmware-master/*
+Mark*/BIGTREETECH-TouchScreenFirmware-master/**/*
+!Mark*/BIGTREETECH-TouchScreenFirmware-master/LICENSE
+!Mark*/BIGTREETECH-TouchScreenFirmware-master/README.md
+!Mark*/BIGTREETECH-TouchScreenFirmware-master/Copy to SD Card root directory to update/
+!Mark*/BIGTREETECH-TouchScreenFirmware-master/Copy to SD Card root directory to update/config.ini

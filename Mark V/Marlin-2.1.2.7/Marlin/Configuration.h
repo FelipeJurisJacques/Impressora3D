@@ -61,7 +61,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Felip Juris Jacques, MARK V)" // MARK V
+#define STRING_CONFIG_H_AUTHOR "(Felipe Juris Jacques, MARK V)" // MARK V
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1511,7 +1511,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 0, -38, 0 } // MARK V
+#define NOZZLE_TO_PROBE_OFFSET { 0, 38, -2.6 } // MARK V
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.

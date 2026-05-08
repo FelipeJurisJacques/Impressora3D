@@ -30,5 +30,11 @@ BigTreeTech SKR-Mini-E3 + Display TFT35-E3 V3.0
 Repositório com informações e firmware da placa BigTreeTech SKR-Mini-E3
 - https://github.com/bigtreetech/bigtreetech-skr-mini-e3
 
+Repositório com informações e firmware da placa BigTreeTech TFT35-E3 V3.0
+- https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware
+
 Arquivos de mídia e documentos
 - https://1drv.ms/f/c/8fc622848ac09012/IgC8sM7t5yoTRrXyEdeeaKg6AYbfRs1pRM_pa0scz5Y8gKk?e=jTZJfH
+
+Repositório do firmware ESP3D para o módulo wifi ESP-01S
+- https://github.com/luc-github/ESP3D
