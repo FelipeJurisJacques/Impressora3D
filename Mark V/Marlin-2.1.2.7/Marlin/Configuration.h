@@ -642,7 +642,7 @@
 #define HEATER_5_MAXTEMP 275
 #define HEATER_6_MAXTEMP 275
 #define HEATER_7_MAXTEMP 275
-#define BED_MAXTEMP      110 // MARK V
+#define BED_MAXTEMP      130 // MARK V
 #define CHAMBER_MAXTEMP  60
 
 /**
@@ -1196,7 +1196,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 2520, 100 } // MARK V
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 2520, 95 } // MARK V
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1511,11 +1511,11 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 0.0, 38.0, -2.95 } // MARK V
+#define NOZZLE_TO_PROBE_OFFSET { -3.0, 38.0, -2.95 } // MARK V
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define PROBING_MARGIN 10
+#define PROBING_MARGIN 30 // MARK V
 
 // X and Y axis travel speed (mm/min) between probes
 #define XY_PROBE_FEEDRATE (133*60)
@@ -2254,7 +2254,7 @@
 
 #define PREHEAT_2_LABEL       "ABS"
 #define PREHEAT_2_TEMP_HOTEND 225 // MARK V
-#define PREHEAT_2_TEMP_BED    80 // MARK V
+#define PREHEAT_2_TEMP_BED    110 // MARK V
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
